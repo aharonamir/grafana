@@ -7,7 +7,7 @@
     "description": "Chicago traffic lanes over time.",
     "size": 16936,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/aharonamir/grafana/deprecated/kepler-gl_activities-traffic-chicago.csv.merged.csv.csv",
+    "dataUrl": "https://raw.githubusercontent.com/aharonamir/grafana/deprecated/kepler-gl_activities-traffic-chicago.csv.merged.csv",
     "configUrl": "https://raw.githubusercontent.com/aharonamir/grafana/deprecated/chicago-traffic-config.json"
   },
   {
