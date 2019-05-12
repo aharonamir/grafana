@@ -4,7 +4,7 @@
     "visState": {
       "filters": [
         {
-          "dataId": "qefdnpul",
+          "dataId": "chicagotraffic",
           "id": "3kryoas3",
           "name": "creationTime",
           "type": "timeRange",
@@ -22,7 +22,7 @@
           "id": "bekzu05",
           "type": "line",
           "config": {
-            "dataId": "qefdnpul",
+            "dataId": "chicagotraffic",
             "label": "new layer",
             "color": [
               130,
