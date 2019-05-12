@@ -1,0 +1,114 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [
+        {
+          "dataId": "qefdnpul",
+          "id": "3kryoas3",
+          "name": "creationTime",
+          "type": "timeRange",
+          "value": [
+            1522628071449,
+            1522641540449
+          ],
+          "enlarged": true,
+          "plotType": "histogram",
+          "yAxis": null
+        }
+      ],
+      "layers": [
+        {
+          "id": "bekzu05",
+          "type": "line",
+          "config": {
+            "dataId": "qefdnpul",
+            "label": "new layer",
+            "color": [
+              130,
+              154,
+              227
+            ],
+            "columns": {
+              "lat0": "8",
+              "lng0": "7",
+              "lat1": "9",
+              "lng1": "10"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 3.2,
+              "colorRange": {
+                "name": "ColorBrewer RdYlGn-4",
+                "type": "diverging",
+                "category": "ColorBrewer",
+                "colors": [
+                  "#d7191c",
+                  "#fdae61",
+                  "#a6d96a",
+                  "#1a9641"
+                ],
+                "reversed": false
+              },
+              "sizeRange": [
+                0,
+                10
+              ],
+              "targetColor": null,
+              "hi-precision": false
+            }
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "4",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "qefdnpul": [
+              "creationTime",
+              "4"
+            ]
+          },
+          "enabled": true
+        },
+        "brush": {
+          "size": 2,
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": []
+    },
+    "mapState": {
+      "bearing": 24,
+      "dragRotate": true,
+      "latitude": 41.94238624937295,
+      "longitude": -87.64753866224667,
+      "pitch": 50,
+      "zoom": 10.73748792631324,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "dark",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true
+      },
+      "mapStyles": {}
+    }
+  }
+}
